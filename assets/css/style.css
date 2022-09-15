@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+/*Colours*/
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.ui-home {
+    background-color: darkgoldenrod;
+}
+
+.ui-resume {
+    background-color: darkorchid;
+}
+
+.ui-contact {
+    background-color: darkcyan;
+}
+
+.ui-cv {
+    background-color: darksalmon;
+}
+
+/*Remove default margins*/
+header {
+    margin: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+/*Remove default spaces within the nav bar, font-size: 0; stops gaps appearing*/
+.space-remover-hack {
+    font-size: 0;
+}
+
+/*This restores the existing font size after the above*/
+nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+/*give space to name & title*/
+.heading {
+    margin-left: 50px;
+}
+
+/*Setting Custom Fonts*/
+.name {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: aliceblue;
+}
+
+/*Profile Image*/
+.logo {
+    background: url("../images/2020.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/*Style Navbar Contents & it's FontAwesome Icons*/
+.menu-item {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    color: aliceblue;
+    height: 120px;
+}
+
+.menu-item a i {
+    padding-top: 32px;
+    display: block;
+    font-size: 32px;
+}
+
+.menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*Hover.css tweaks from a blue colour overlay to a slight shadow*/
+/*:before tag comes from analysing in Chrome Dev Tools and seeing this is where the color is referenced by the stylesheet*/
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px
+}
+
+/*Footer classes*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+footer {
+    background-color: #525252;
+    color: aliceblue;
+    min-height: 120px;
+    padding: 20px;
+}
+
+.cv-pdf i {
+    font-size: 24px;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover{
+    color: darkgoldenrod;
+}
+
+.social-links{
+    padding-bottom: 16px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 12px 0;
+    font-size: 20px;
+    line-height: 7px;
+    color: aliceblue;
+    background-color: darkgray;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background-color: darkgoldenrod;
+}
