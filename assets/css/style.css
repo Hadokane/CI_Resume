@@ -9,6 +9,11 @@
     background-color: aliceblue;
 }
 
+.work-history-section {
+    background-color: darkorchid;
+    color: aliceblue;
+}
+
 .ui-home {
     background-color: darkgoldenrod;
 }
@@ -141,7 +146,7 @@ nav li {
     color: aliceblue;
 }
 
-.inline-block{
+.inline-block {
     display: inline-block;
 }
 
@@ -163,11 +168,11 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover{
+.cv-pdf i:hover {
     color: darkgoldenrod;
 }
 
-.social-links{
+.social-links {
     padding-bottom: 16px;
 }
 
@@ -187,7 +192,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
+.social-links li a i:hover {
     background-color: darkgoldenrod;
 }
 
@@ -203,9 +208,107 @@ footer {
     float: none;
 }
 
-.about-section {
+.section-heading {
     font-family: "Exo 2", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.about-icon {
+    font-size: 24px;
+    color: goldenrod;
+}
+
+.about-heading {
+    margin-bottom: 16px;
+}
+
+/*Personal Section*/
+.personal-section {
+    background-color: #f4f4f4;
+}
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key,
+.personal-info-item .key p {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+/*Resume - Skills Section*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 15px;
+    color: aliceblue;
+    background-color: rgba(25, 25, 25, .2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+/*Resume - Work History Section*/
+
+.timeline-item {
+    position: relative;
+    border-left: 1px solid;
+    padding-left: 32px;
+    padding-bottom: 16px;
+    color: aliceblue;
+    font-family: 'Exo_2', sans-serif;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+/*adds the circle on the work history bar*/
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    left: -6px;
+    top: 8px;
+    border-radius: 50%;
+    content: '';
+    background-color: aliceblue;
 }
