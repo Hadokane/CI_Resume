@@ -14,6 +14,10 @@
     color: aliceblue;
 }
 
+.contact-section {
+    background-color: aliceblue;
+}
+
 .ui-home {
     background-color: darkgoldenrod;
 }
@@ -292,7 +296,7 @@ footer {
     padding-left: 32px;
     padding-bottom: 16px;
     color: aliceblue;
-    font-family: 'Exo_2', sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .timeline-item p {
@@ -311,4 +315,35 @@ footer {
     border-radius: 50%;
     content: '';
     background-color: aliceblue;
+}
+
+/*Contact - Form*/
+
+.contact-heading {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 10px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: #e84610;
 }
