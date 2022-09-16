@@ -5,6 +5,10 @@
     background-color: #676767;
 }
 
+.three-reasons {
+    background-color: aliceblue;
+}
+
 .ui-home {
     background-color: darkgoldenrod;
 }
@@ -132,7 +136,7 @@ nav li {
 }
 
 .sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 100;
     color: aliceblue;
 }
@@ -185,4 +189,23 @@ footer {
 
 .social-links li a i:hover{
     background-color: darkgoldenrod;
+}
+
+/*About Section*/
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.about-section {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
